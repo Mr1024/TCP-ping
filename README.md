@@ -36,13 +36,13 @@ optional```true or false``` Sorts the items of data. true is  ascending (up) and
 ###Usage
 ```javascript
 var ping = require('ping-net');
-ping.ping({ address: '127.0.0.1', port:8080}, function(err, data) {
+ping.ping({ address: '127.0.0.1', port:8080}, function(data) {
     console.log(data);
 });
 ping.ping([
           { address: '127.0.0.1', port:8080},
           { address: '192.168.2.1', port:8080}
-          ], function(err, data) {
+          ], function(data) {
     console.log(data);
 });
 ```
