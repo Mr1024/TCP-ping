@@ -51,7 +51,7 @@ var ping = function(o, callback, sorttag) {
                             return sorttag == true ? (a.avg - b.avg) : (b.avg - a.avg);
                         });
                     }
-                    callback(undefined, outArry);
+                    callback(outArry);
                 }
 
             }
