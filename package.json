@@ -1,0 +1,23 @@
+{
+    "name": "ping-net",
+    "version": "0.0.1",
+    "description": "A ping tool using TCP connection",
+    "main": "ping.js",
+    "keywords": [
+        "ping", "http", "util", "tcp", "availability", "nodejs"
+    ],
+    "homepage": "https://github.com/Mr1024/TCP-ping",
+    "author": {
+        "name": "Mr1024",
+        "email": "publiczhongemail@163.com",
+        "url": "https://github.com/Mr1024"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:Mr1024/TCP-ping.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Mr1024/TCP-ping/issues"
+    },
+    "license": "MIT"
+}
