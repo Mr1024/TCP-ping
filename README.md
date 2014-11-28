@@ -1,4 +1,4 @@
-node-staticServer
+ping
 =================
 > a nodejs ping tool
 ##Getting Started
