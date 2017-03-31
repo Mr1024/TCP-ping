@@ -1,17 +1,17 @@
 ping
 =================
 > a nodejs ping tool
-##Getting Started
+## Getting Started
 ```shell
 npm install ping-net
 ```
-###Functions
-#####ping(options, callback,true)
+### Functions
+##### ping(options, callback,true)
 ```options``` is an object or object Array, which may contain several properties:
 * address (address to ping; defaults to ```localhost```)
 * port (defaults to ```80```)
 * timeout (in ms; defaults to 5s)
-* attempts (how many times to measure time; defaults to 10)
+* attempts (how many times to measure time; defaults to ```10```)
 
 ```callback``` should be a function with arguments in node convention - ```function(data)```.
 Returned data is an object which looks like this:
@@ -32,8 +32,11 @@ Returned data is an object which looks like this:
    ]
 }
 ```
-optional```true or false``` Sorts the items of data. true is  ascending (up) and false is descending (down).
-###Usage
+Optional paramater ```true or false``` sorts the results of the data. 
+* True is ascending (up)
+* False is descending (down)
+
+### Example Usage
 ```javascript
 var ping = require('ping-net');
 ping.ping({ address: '127.0.0.1', port:8080}, function(data) {
